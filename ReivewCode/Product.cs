@@ -6,24 +6,12 @@ using System.Threading.Tasks;
 
 namespace ReivewCode
 {
-	public class Position
+	class Product
 	{
-		int? m_nNo;
-
-		public int? No
+		public void ProductFunc()
 		{
-			get
-			{
-				return m_nNo;
-			}
-			set
-			{
-				m_nNo = value;
-			}
-		}
+			Console.WriteLine( "Product!" );
 
+		}
 	}
 }
-
-
-
