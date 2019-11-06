@@ -9,6 +9,7 @@ namespace ReivewCode
 	public class Position
 	{
 		int? m_nNo;
+		int? m_nRAddress;
 
 		public int? No
 		{
@@ -22,6 +23,17 @@ namespace ReivewCode
 			}
 		}
 
+		public int? Address
+		{
+			get
+			{
+				return m_nRAddress;
+			}
+			set
+			{
+				m_nRAddress = value;
+			}
+		}
 	}
 }
 
