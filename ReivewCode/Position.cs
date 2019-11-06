@@ -9,6 +9,7 @@ namespace ReivewCode
 	public class Position
 	{
 		int? m_nNo;
+		int? m_nRAddress;
 
 		public int? No
 		{
