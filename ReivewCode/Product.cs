@@ -11,6 +11,7 @@ namespace ReivewCode
 		public void ProductFunc()
 		{
 			Console.WriteLine( "Product!" );
+			Console.WriteLine( "123" );
 
 		}
 	}
