@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="rhodecode.cs" />
+    <Compile Include="Rhodecode.cs" />
     <Compile Include="Position.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />

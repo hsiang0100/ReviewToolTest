@@ -10,6 +10,9 @@ namespace ReivewCode
 	{
 		static void Main( string[] args )
 		{
+
+			Rhodecode rhodecode = new Rhodecode();
+			rhodecode.Start();
 			Console.WriteLine( "Test" );
 			Console.ReadKey();
 		}
